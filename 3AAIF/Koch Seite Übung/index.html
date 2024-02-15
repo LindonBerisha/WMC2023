@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="layout.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kochseite</title>
+</head>
+<body>
+
+    <header>
+    </header>
+    <nav class="Navigator">
+        <ul>
+            <li><a href="#start">Start</a></li>
+            <li><a href="#rezepte">Rezepte</a></li>
+            <li><a href="#rezepte-ein">Rezepte einreichen</a></li>
+            <li><a href="#überuns">Über uns</a></li>
+        </ul>
+    </nav>
+
+    <section id="start">
+        <h1>Food4you</h1>
+        <p>Österreichs nummer 1 Foodblog</p>
+
+        <img class="mainpicture" src="https://image.geo.de/30124090/t/Zy/v3/w1440/r0/-/gemuese-zubereitung-f-133698444-jpg--70194-.jpg">
+    </section>
+
+
+    <section id="rezepte" class="rezepte">
+        <h2>Rezepte</h2>
+       <a href=""><img src="Rezeptbild.jpeg"></a>
+       <a href=""><img src="Rezeptbild.jpeg"></a>
+       <a href=""><img src="Rezeptbild.jpeg"></a>
+       <a href=""><img src="Rezeptbild.jpeg"></a>
+       <a href=""><img src="Rezeptbild.jpeg"></a>
+       <a href=""><img src="Rezeptbild.jpeg"></a>
+       <a href=""><img src="Rezeptbild.jpeg"></a>
+       <a href=""><img src="Rezeptbild.jpeg"></a>
+
+
+
+    </section>
+    <h2 id="rezepte-ein">Rezepte einreichen</h2>
+    <form>
+        Name: <input type="text">
+
+        Email: <input type="mail">
+        <br>
+        Rezept: <input type="text">
+
+        Ich bin kein Roboter: <input type="checkbox">
+
+        <button>Abschicken</button>
+
+        <script>
+            const btn = document.querySelector("button");
+
+            btn.addEventListener('click', function() {
+                alert("Ihr Rezept wird nach einer Überprüfung hochgeladen!");
+            });
+        </script>
+    </form>
+    <footer id="überuns">
+        <br>
+       <h2>Über uns</h2><br>
+       Beispieltext textbeispiel beispiel text beispiel  Beispieltext textbeispiel beispiel text beispiel Beispieltext textbeispiel beispiel text beispiel Beispieltext textbeispiel beispiel text beispiel       Beispieltext textbeispiel beispiel text beispiel 
+
+    </footer>
+</body>
+</html>
